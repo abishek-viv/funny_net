@@ -1,5 +1,5 @@
-var := trial_2.cpp
-var_c := trial_2_c
+var := "file_name".cpp
+var_c :="compiled file"
 
 all:
 	g++ -std=c++11 -o $(var_c) $(var)
